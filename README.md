@@ -1,4 +1,15 @@
 # 2023_ai_cup_competition
+【模型】<br>
+1.chinese-electra-base-generator<br>
+2.chinese-electra-180g-base-discriminator<br>
+<br>
+【訓練方式】<br>
+1.資料前處理：確定claim的wiki pages<br>
+<br>
+2.語句檢索：訓練模型判斷wiki page中的證據句。測試是從訓練集claim萃取的名詞與形容詞對應到的wiki page中找出證據句<br>
+<br>
+3.陳述句驗證：訓練用訓練集的claim + evidence + label來訓練模型辨別label。測試從語句檢索找出的證據句來判斷測試集的claim為support或refutes或not enough info<br>
+<br>
 【安裝配置環境】<br>
 我們整個訓練過程都是在colab上面跑<br>
 ipywidgets==8.0.5<br>
@@ -17,3 +28,11 @@ wikipedia==1.4.0<br>
 引入官方提供的library<br>
 dataset.py<br>
 utils.py<br>
+<br>
+【準確率】<br>
+訓練集：0.5215 (loss:3)<br>
+驗證集：0.447927<br>
+測試集：0.394884<br>
+<br>
+** AI CUP COMPETITION RANKING **<br>
+ranking : 25 / 301<br>
