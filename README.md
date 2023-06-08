@@ -1,4 +1,4 @@
-# 2023_ai_cup_competition
+# 2023 AI CUP COMPETITION
 【模型】<br>
 1.chinese-electra-base-generator<br>
 2.chinese-electra-180g-base-discriminator<br>
