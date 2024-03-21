@@ -1,4 +1,7 @@
 # 2023 AI CUP COMPETITION
+【比賽介紹】<br>
+透過競賽提供的事實資料庫以及陳述句 (claim)建立自動化的事實檢索與查核系統，以驗證陳述句的真偽。如果陳述句能夠「支持」或「反對」事實，系統也必須透過檢索資料庫中的文章來提供證據句。
+<br>
 【模型】<br>
 1.chinese-electra-base-generator<br>
 2.chinese-electra-180g-base-discriminator<br>
